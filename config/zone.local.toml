@@ -1,0 +1,5 @@
+listen = "0.0.0.0:5000"
+protocol_id = 42
+max_clients = 128
+tick_hz = 60
+insecure = true

@@ -1,0 +1,11 @@
+[package]
+name = "moonhold-sim"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hecs = "0.10"
+bitflags = "2"
+smallvec = "1"
+rand = "0.8"
+moonhold-protocol = { path = "../protocol" }
